@@ -1,0 +1,76 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(77, 135, 229, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .main-content.active {
+    transform: translateY(10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(109, 109, 230);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(68, 68, 227);
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+
+  span{
+    color: rgb(109, 109, 230);
+    font-weight: bolder;
+    transform: scale(1.1);
+  }
